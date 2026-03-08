@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+#header{
+    text-align: center;
+    background-color: #e7f4ff;
+    height: 170px;
+}
+
+#header img{
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+#header #logo{
+
+    margin: auto;
+}
+
+#mainPageHome h1{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mainPageHome{
+    color: #6170f3;
+    font-size: 15px;
+}
+    
