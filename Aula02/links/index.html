@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ª Aula Linguagens de programação</title>
+
+    <title>..::Planetas Curiosos::..</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Início Menu -->
+    <header id="header">
+        <a id="logo" href="./index.html"> <img src="./imgs/1.png" alt="Logo da Planetas Curiosos"></a>
+
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+
+            <span id="hamburger" aria-hidden="true"></span>
+
+        </button>
+
+        <ul id="menu" role="menu">
+            <li role="none"><a class="linkMenu" aria-current="page" role="menuitem" href="./index.html">Home</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./quemSomos.html">Quem somos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./produtos.html">Produtos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./videos.html">Videos</a></li>
+            <li role="none"><a class="linkMenu" role="menuitem" href="./contatos.html">Contatos</a></li>
+        </ul>
+
+    </header>
+    <!-- Fim Menu -->
+
+    <!-- Conteúdo principal -->
+    <main id="conteudo">
+
+        <section aria-label="Área Texto Alternativo" id="hieroglyph">
+            <!-- Seção vazia (texto alternativo) -->
+        </section>
+
+        <!-- Carousel Página Principal -->
+        <section aria-label="Destaques em Banner">
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-rise="carousel" data-bs-pause="none">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="800">
+                        <!-- data-bs-interval => apontar em milisegundos -->
+                        <img src="imgs/banner1.jpg" class="d-block w-100" alt="Banner de Destaque 1">
+                    </div>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="600">
+                        <!-- data-bs-interval => apontar em milisegundos -->
+                        <img src="imgs/banner2.jpg" class="d-block w-100" alt="Banner de Destaque 2">
+                    </div>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="600">
+                        <!-- data-bs-interval => apontar em milisegundos -->
+                        <img src="imgs/banner3.jpg" class="d-block w-100" alt="Banner de Destaque 3">
+                    </div>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="600">
+                        <!-- data-bs-interval => apontar em milisegundos -->
+                        <img src="imgs/banner4.jpg" class="d-block w-100" alt="Banner de Destaque 4">
+                    </div>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="600">
+                        <!-- data-bs-interval => apontar em milisegundos -->
+                        <img src="imgs/banner5.jpg" class="d-block w-100" alt="Banner de Destaque 5">
+                    </div>
+                </div>
+
+                <!-- Botão "Próximo Slide" -->
+                <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button"
+                    data-bs-slide="prev" aria-label="Voltar Banner">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="span.visually-hidden"> Anterior</span>
+                </button>
+
+                <!-- Botão "Voltar Slide" -->
+                <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button"
+                    data-bs-slide="next" aria-label="Proximo Banner">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="span.visually-hidden"> Próximo</span>
+                </button>
+            </div>
+        </section>
+        <!-- Fim Carousel -->
+
+        <!-- Início Banner -->
+
+        <section class="section-banner-home" aria-label="Chamada principal">
+            <div class="container-fluid">
+                <div class="row -0">
+                    <div class="col-12 col-md-6">
+                        <figure>
+                            <img src="imgs/banner1.jpg" alt="Banner: Lançamentos de Espaçonaves em 2026" loading="lazy">
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <section class="texto-banner d-done d-md-block" aria-label="Mensagem Principal">
+                            <h1>Conheça os lançamentos de Espaço Naves em 2026!</h1>
+                            <p class="d-none d-md-clock">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum aperiam temporibus
+                                dolorem amet ad unde porro quia voluptatum! Repellat asperiores laboriosam et ducimus
+                                dolorem placeat quae, nihil minima libero labore!
+                            </p>
+                            <a href="#" aria-label="Saiba mais sobre os lançamentos">Saiba mais</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Banner -->
+
+        <!-- Início Destaque -->
+        <section class="col-6 col-md-2 pr-0">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <header class="col-12">
+                        <h2>Conheça as coleções de foguetes Históricos</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla pariatur fugiat dolorum
+                            culpa, voluptates vel dolore ratione, facere ad laudantium velit libero, a placeat? Ratione
+                            unde earum tenetur consequatur. Sunt.
+                        </p>
+                        <header>
+                            <!-- Início destaque 01 -->
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="./produtos.html" aria-label="Ver detalhes da espaço nave 'Spirit'">
+                                        <img src="imgs/destaque-01.png" alt="Nave Spirit" width="100%" loading="lazy">
+                                    </a>
+                                    <figcaption> Nave Spirit <br> 1999 </figcaption>
+                                </figure>
+                            </div>
+                            <!--Fim destaque 01 -->
+
+                            <!-- Início destaque 02 -->
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="./produtos.html" aria-label="Ver detalhes da espaço nave 'Spirit'">
+                                        <img src="imgs/destaque-02.png" alt="Nave Spirit" width="100%" loading="lazy">
+                                    </a>
+                                    <figcaption> Nave Spirit <br> 1999 </figcaption>
+                                </figure>
+                            </div>
+                            <!--Fim destaque 02 -->
+
+                            <!-- Início destaque 03 -->
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="./produtos.html" aria-label="Ver detalhes da espaço nave 'Spirit'">
+                                        <img src="imgs/destaque-03.png" alt="Nave Spirit" width="100%" loading="lazy">
+                                    </a>
+                                    <figcaption> Nave Spirit <br> 1999 </figcaption>
+                                </figure>
+                            </div>
+                            <!--Fim destaque 03 -->
+
+                            <!-- Início destaque 04 -->
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="./produtos.html" aria-label="Ver detalhes da espaço nave 'Spirit'">
+                                        <img src="imgs/destaque-04.png" alt="Nave Spirit" width="100%" loading="lazy">
+                                    </a>
+                                    <figcaption> Nave Spirit <br> 1999 </figcaption>
+                                </figure>
+                            </div>
+                            <!--Fim destaque 04 -->
+
+                            <!-- Início destaque 05 -->
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="./produtos.html" aria-label="Ver detalhes da espaço nave 'Spirit'">
+                                        <img src="imgs/destaque-05.png" alt="Nave Spirit" width="100%" loading="lazy">
+                                    </a>
+                                    <figcaption> Nave Spirit <br> 1999 </figcaption>
+                                </figure>
+                            </div>
+                            <!--Fim destaque 05 -->
+                        </header>
+
+                    </header>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Destaque -->
+
+        <!-- Início Banner -->
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</html>
