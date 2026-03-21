@@ -4,3 +4,9 @@ a#logo img {
     height: 250px;
     width: 250px;
 }
+
+div.col-6,
+.col-md-2,
+.pr-0 {
+
+}
