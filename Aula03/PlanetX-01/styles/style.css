@@ -1,0 +1,57 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Whatsapp {
+    position: fixed;
+    top: 400px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+
+    font-size: 30px;
+    text-decoration: none;
+}
+.Whatsapp img {
+    height: 70px;
+}
+.Whasapp .pulse {
+    animation: pulse-animation 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-duration: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+        -webkit-filter: brightness(110%);
+    }
+}
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+        -webkit-filter: brightness(110%);
+    }
+}
